@@ -1,0 +1,58 @@
+//覆盖一些vux-ui样式
+.weui-toast__content {
+  font-size: 14px;
+  color: #fff !important;
+}
+.vux-slider > .vux-swiper > .vux-swiper-item > a > .vux-swiper-desc {
+  height: 0.5rem !important;
+  font-size: 0.14rem !important;
+}
+
+.weui-cells {
+  margin-top: 0 !important;
+}
+
+.vux-slider > .vux-indicator > a > .vux-icon-dot.active,
+.vux-slider .vux-indicator-right > a > .vux-icon-dot.active {
+  background-color: #fff !important;
+}
+
+.vux-popup-header {
+  height: 0.39rem !important;
+  line-height: 0.39rem !important;
+  font-size: 12px !important;
+  .vux-popup-header-right {
+    color: #1987d1 !important;
+  }
+}
+
+.dp-header {
+  height: 0.39rem !important;
+  line-height: 0.39rem !important;
+  .dp-left {
+    font-size: 12px !important;
+  }
+  .dp-right {
+    font-size: 12px !important;
+    color: #1987d1 !important;
+  }
+}
+
+.vux-slider > .vux-swiper > .vux-swiper-item > a > .vux-img {
+  //background-size: contain !important;
+}
+
+.weui-dialog__ft {
+  font-size: 0.17rem !important;
+  .weui-dialog__btn_primary {
+    color: #007aff !important;
+  }
+}
+
+.weui-cells_radio .weui-check:checked + .weui-icon-checked:before {
+  color: #007aff !important;
+}
+
+.weui-search-bar__cancel-btn {
+  color: #007aff !important;
+}

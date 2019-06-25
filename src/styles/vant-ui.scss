@@ -1,0 +1,16 @@
+//覆盖一些vant-ui样式
+.van-list__finished-text {
+  width: 100% !important;
+}
+
+.van-list__loading {
+  width: 100% !important;
+}
+
+.van-swipe__indicator--active {
+  background-color: #fff !important;
+}
+
+.van-tabbar--fixed {
+  z-index: 999 !important;
+}

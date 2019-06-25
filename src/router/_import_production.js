@@ -1,0 +1,1 @@
+module.exports = (file, mod = 'mall') => () => import('@/views/' + mod + '/' + file + '.vue')

@@ -1,0 +1,14 @@
+@import './variables.scss';
+.mui-active{
+    border-bottom: 0;
+    color: $baseBgc !important;
+    background:0 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+input{
+  border: none !important;
+}
